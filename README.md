@@ -1,6 +1,6 @@
 # Sueldo Neto (iOS)
 
-Versión para iPhone de [Sueldo Neto](https://github.com/Oeaon/sueldo-neto), hecha con Flutter.
+Versión para iPhone de Sueldo Neto, hecha con Flutter.
 Calcula el sueldo neto (IRPF y Seguridad Social de 2026), el paro y la indemnización por despido en España,
 y compara dos ofertas de trabajo (función Premium).
 
