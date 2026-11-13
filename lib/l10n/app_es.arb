@@ -1,0 +1,152 @@
+{
+  "@@locale": "es",
+  "settings": "Ajustes",
+  "tabSalary": "Nómina",
+  "tabCompare": "Comparar ofertas",
+  "tabUnemployment": "Paro",
+  "tabSeverance": "Despido",
+  "grossAnnual": "Sueldo bruto anual",
+  "payments14": "14 pagas",
+  "payments12": "12 pagas",
+  "contractPermanent": "Indefinido",
+  "contractTemporary": "Temporal",
+  "children": "Hijos a cargo",
+  "childrenUnder3": "De ellos, menores de 3 años",
+  "netMonthly": "Neto al mes",
+  "netExtraPay": "Cada paga extra: {p1}",
+  "netAnnual": "Neto al año",
+  "socialSecurity": "Seguridad Social",
+  "withholding": "IRPF ({p1})",
+  "salaryNote": "Cálculo orientativo con las retenciones de {p1} para un contribuyente sin cónyuge a cargo, sin discapacidad y con los hijos compartidos con el otro progenitor. No vale para el País Vasco ni Navarra. Tu nómina puede variar según tu convenio y tu situación personal.",
+  "compareTitle": "Compara dos ofertas",
+  "compareLocked": "Mete dos sueldos brutos y mira cuál te deja más dinero cada mes y cuánto de la subida llega a tu bolsillo.",
+  "offerA": "Oferta A (bruto anual)",
+  "offerB": "Oferta B (bruto anual)",
+  "offerANet": "Oferta A, neto al mes",
+  "offerBNet": "Oferta B, neto al mes",
+  "compareDifference": "{p1} te deja {p2} más al mes ({p3} al año)",
+  "compareKept": "De cada 100 € brutos de diferencia te quedan {p1} €.",
+  "unemploymentBase": "Base de cotización media mensual",
+  "unemploymentBaseHelp": "Es la media de los últimos 6 meses. Si no la sabes, usa tu bruto anual entre 12.",
+  "unemploymentDays": "Días cotizados en los últimos 6 años",
+  "daysSuffix": "días",
+  "unemploymentNoRight": "Con menos de 360 días cotizados no hay paro contributivo. Puede que tengas derecho a un subsidio.",
+  "unemploymentDuration": "Cobrarías {p1} días (unos {p2} meses)",
+  "unemploymentFirst180": "Primeros 6 meses (70 %)",
+  "unemploymentFrom181": "Del mes 7 al 12 (60 %)",
+  "unemploymentFrom361": "Desde el mes 13 (50 %)",
+  "unemploymentNote": "Importes brutos al mes, con los topes de 2026. Al cobrar se descuenta la cotización a la Seguridad Social y, si toca, el IRPF.",
+  "startDate": "Fecha de alta",
+  "endDate": "Fecha de baja",
+  "dismissalUnfair": "Despido improcedente (33 días por año)",
+  "dismissalObjective": "Despido objetivo (20 días por año)",
+  "dismissalTemporary": "Fin de contrato temporal (12 días por año)",
+  "dismissalNone": "Baja voluntaria (sin indemnización)",
+  "vacationDays": "Días de vacaciones sin disfrutar",
+  "yearsWorked": "Años trabajados",
+  "compensation": "Indemnización",
+  "vacationPay": "Vacaciones pendientes",
+  "severanceTotal": "Total aproximado",
+  "severanceNote": "Estimación bruta para contratos firmados desde el 12 de febrero de 2012. El finiquito real incluye además los días trabajados del mes y la parte de las pagas extras.",
+  "premiumFeatureCompare": "Comparador de ofertas de trabajo",
+  "premiumSettingsText": "Quita los anuncios y desbloquea el comparador de ofertas.",
+  "removeAds": "Quitar anuncios",
+  "privacyOptions": "Opciones de privacidad de anuncios",
+  "aboutTitle": "Acerca de",
+  "aboutText": "Calculadoras orientativas de nómina, paro e indemnización según la normativa española. No sustituyen el asesoramiento de un profesional.",
+  "sourceTitle": "Fuentes oficiales",
+  "source1": "IRPF – Agencia Tributaria",
+  "source2": "Cotización – Seguridad Social",
+  "source3": "Prestación por desempleo – SEPE",
+  "source4": "Estatuto de los Trabajadores (BOE)",
+  "aboutDisclaimer": "Sueldo Neto es una app independiente y no está vinculada a la Agencia Tributaria, la Seguridad Social, el SEPE ni a ningún organismo público.",
+  "version": "Versión {p1}",
+  "premiumTitle": "Premium",
+  "premiumBack": "Volver",
+  "premiumHeadline": "Pásate a Premium",
+  "premiumActive": "Ya eres Premium. ¡Gracias por tu apoyo!",
+  "premiumBenefitNoAds": "Sin anuncios",
+  "premiumMonthly": "{p1} al mes",
+  "premiumLifetime": "{p1}, pago único para siempre",
+  "premiumLoading": "Cargando precio…",
+  "premiumStoreUnavailable": "No se puede conectar con el App Store. Inténtalo más tarde.",
+  "premiumRestore": "Restaurar compras",
+  "premiumLegal": "La suscripción se renueva cada mes y puedes cancelarla cuando quieras en el App Store.",
+  "lockedWatchAd": "Ver un anuncio y desbloquear 24 h",
+  "lockedGoPremium": "Hazte Premium",
+  "rewardedUnavailable": "No hay ningún anuncio disponible ahora mismo. Prueba dentro de un rato.",
+  "@netExtraPay": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@withholding": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@salaryNote": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      }
+    }
+  },
+  "@compareDifference": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      },
+      "p2": {
+        "type": "String"
+      },
+      "p3": {
+        "type": "String"
+      }
+    }
+  },
+  "@compareKept": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      }
+    }
+  },
+  "@unemploymentDuration": {
+    "placeholders": {
+      "p1": {
+        "type": "int"
+      },
+      "p2": {
+        "type": "int"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@premiumMonthly": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "@premiumLifetime": {
+    "placeholders": {
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyPolicy": "Política de privacidad",
+  "termsOfUse": "Términos de uso"
+}
